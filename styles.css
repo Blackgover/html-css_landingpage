@@ -1,0 +1,87 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+
+.n-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.n-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.n-link a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+.header {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.h-body {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.h-body p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.h-image img {
+    width: 500px;
+    height: 350px;
+}
+
+.h-body button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
